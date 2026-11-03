@@ -1,0 +1,24 @@
+# Soluções do professor: ficam só na máquina, nunca no GitHub
+**/SOLUCAO_PROFESSOR/
+
+# Arquivos que os notebooks baixam ou geram (por padrão vão para ~/ac_saida ou /content)
+ac_saida/
+saida/
+placas_*/
+yolo_placas/
+placas.yaml
+*.zip
+*.pt
+runs/
+
+# Python e Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Configuração local de editor
+.vscode/
+.cursor/
+.idea/
