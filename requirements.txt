@@ -1,0 +1,14 @@
+# Só para rodar no computador (no Colab já vem tudo instalado).
+# Instale sem administrador:   python -m pip install --user -r requirements.txt
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-learn>=1.5
+jupyter
+
+# Só para o notebook Extra de Visão Computacional:
+scikit-image
+opencv-python-headless
+torch
