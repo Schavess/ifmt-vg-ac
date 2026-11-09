@@ -3,7 +3,7 @@
 **AC · 4º TIA · 2026/2.** Em 4 semanas (03/11 a 01/12), cada grupo sai do papel e chega a um **MVP que funciona com dados reais**: uma base mínima, um modelo melhor que o baseline e uma tela de decisão.
 Toda terça o grupo mostra **algo que roda** (arquivo, código, tela), e não só um documento.
 
-O projeto de referência é o [PPI-molde Comparece MT](../ppi_molde_comparece_mt): cada passo abaixo tem um equivalente lá.
+O projeto de referência é o [PPI-molde Comparece MT](../ppi_molde_comparece_mt): cada passo abaixo tem um equivalente lá, e as [práticas semanais](../atividades) constroem o molde um pedaço por vez, sempre uma semana antes de o grupo precisar daquele pedaço.
 
 ---
 
@@ -36,10 +36,10 @@ Nos três casos, **o notebook é o motor e o dashboard é a vitrine**. O modelo 
 
 | Terça | Sprint | Entrega do grupo | Prática da noite ([`atividades`](../atividades)) |
 |---|---|---|---|
-| **03/11** | 1 | **Check-in zero (Parcial II):** escopo fechado | Abstenção alta: o primeiro classificador |
-| **10/11** | 1 | **Check-in 1:** base analítica v0 ⚠️ *ponto sem volta* | Validação cruzada |
-| **17/11** | 1 → 2 | **Sprint review 1:** primeiro experimento honesto | Árvores e sobreajuste |
-| **24/11** | 2 | **Check-in 3:** modelo escolhido e decisão v0 | Perfis de municípios (K-Means) |
+| **03/11** | 1 | **Check-in zero (Parcial II):** escopo fechado | O ETL: da fonte à base analítica |
+| **10/11** | 1 | **Check-in 1:** base analítica v0 ⚠️ *ponto sem volta* | Experimento honesto: split, baselines e `Pipeline` |
+| **17/11** | 1 → 2 | **Sprint review 1:** primeiro experimento honesto | Validação cruzada, árvores e sobreajuste |
+| **24/11** | 2 | **Check-in 3:** modelo escolhido e decisão v0 | Perfis e decisão: K-Means e mochila |
 | **01/12** | 2 | **Sprint review 2 e congelamento do MVP** | Tribunal do Pipeline (ensaio da banca) |
 | 01 a 08/12 | — | **Banca** | |
 

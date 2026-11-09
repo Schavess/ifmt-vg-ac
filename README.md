@@ -65,15 +65,16 @@ A seção "No seu projeto" liga o capítulo à PPI.
 
 ## 🧪 Práticas semanais
 
-Toda semana pode entrar uma prática nova em [`atividades`](atividades), **e práticas extras também podem ser incluídas**, sempre no mesmo formato. O nome da pasta traz a data e o tema.
+Toda semana pode entrar uma prática nova em [`atividades`](atividades), **e práticas extras também podem ser incluídas**, sempre no mesmo formato. O nome da pasta traz a data e o tema. As práticas constroem, um pedaço por semana, o [PPI-molde Comparece MT](ppi_molde_comparece_mt), uma semana antes de o grupo precisar daquele pedaço no projeto.
 
 | Data | Prática | Apostila |
 |---|---|---|
-| 03/11 | [Abstenção alta em MT: o primeiro classificador](atividades/2026-11-03_Aula02_Abstencao_Alta) | cap. 2, 4, 5, 9, 12 |
-| 10/11 | [Qual modelo escolher? Validação cruzada](atividades/2026-11-10_Aula03_Validacao_Cruzada) | cap. 9, 12, 13, 16, 18 |
-| 17/11 | [Árvores de decisão e sobreajuste](atividades/2026-11-17_Aula04_Arvores_Sobreajuste) | cap. 9, 10, 11, 16, 18 |
-| 24/11 | [Perfis de municípios com K-Means](atividades/2026-11-24_Aula05_Perfis_Municipios) | cap. 6, 7, 19, 20, 24 |
-| 01/12 | [Tribunal do Pipeline: auditar e consertar](atividades/2026-12-01_Aula06_Tribunal_do_Pipeline) | cap. 2, 5, 9, 12, 13, 24 |
+| 27/10 | [O problema: onde o eleitor de MT deixa de votar?](atividades/2026-10-27_Aula01_O_Problema) | cap. 1 a 4 |
+| 03/11 | [Da fonte à base analítica: o ETL](atividades/2026-11-03_Aula02_ETL_Base_Analitica) | cap. 3 a 6 |
+| 10/11 | [Experimento honesto: o modelo vence as duas réguas?](atividades/2026-11-10_Aula03_Experimento_Honesto) | cap. 5, 9 e 11 |
+| 17/11 | [Qual modelo escolher? Validação cruzada, árvores e sobreajuste](atividades/2026-11-17_Aula04_Validacao_Cruzada_Arvores) | cap. 9, 10, 13, 16 e 18 |
+| 24/11 | [Da previsão à decisão: perfis e carteira sob orçamento](atividades/2026-11-24_Aula05_Perfis_e_Decisao) | cap. 6, 7, 19, 20 e 24 |
+| 01/12 | [Tribunal do Pipeline: auditar e consertar](atividades/2026-12-01_Aula06_Tribunal_do_Pipeline) | cap. 2, 5, 9, 12, 13 e 24 |
 | … | *práticas extras podem entrar a qualquer semana, no mesmo formato* | |
 
 ```
