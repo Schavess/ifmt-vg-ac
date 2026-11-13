@@ -30,7 +30,7 @@ Dados públicos de Mato Grosso e da gestão pública sempre que possível.
 
 | Pasta | O que é | Para quê |
 |---|---|---|
-| 📘 [`apostila`](apostila) | A apostila (PDF e Word) e os 3 notebooks dos capítulos | Estudar a matéria com código que roda |
+| 📘 [`apostila`](apostila) | A apostila (PDF e Word) e os 4 notebooks, um por unidade | Estudar a matéria com código que roda |
 | 🧪 [`atividades`](atividades) | Uma pasta por prática semanal de laboratório | Praticar em aula, a partir de um notebook com `TODO` e verificação automática |
 | 🗓️ [`ppi`](ppi) | Plano de sprints da PPI GovTech: MVP mínimo, calendário, checklist de cada terça, papéis, semáforo e planos B | Saber o que entregar em cada terça até a banca |
 | 🏛️ [`ppi_molde_comparece_mt`](ppi_molde_comparece_mt) | Projeto completo de exemplo: previsão de abstenção, perfis de municípios, otimização com orçamento e dashboard | Modelo de repositório e de fluxo para a PPI GovTech |
@@ -51,9 +51,10 @@ São 4 unidades e 24 capítulos, mais 5 apêndices (guia de modelo e métrica, W
 
 | Notebook | Capítulos | Abrir |
 |---|---|---|
-| `AC_U1_Dados_ao_Pipeline` | 1 a 7, 17 e 23 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Schavess/ifmt-vg-ac/blob/main/apostila/notebooks/AC_U1_Dados_ao_Pipeline_INICIAL.ipynb) |
-| `AC_U2_Supervisionada` | 5 e 8 a 16 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Schavess/ifmt-vg-ac/blob/main/apostila/notebooks/AC_U2_Supervisionada_INICIAL.ipynb) |
-| `AC_U3_Nao_Supervisionada` | 18 a 22 e 24 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Schavess/ifmt-vg-ac/blob/main/apostila/notebooks/AC_U3_Nao_Supervisionada_INICIAL.ipynb) |
+| `AC_U1_Dados` | 1 a 4 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Schavess/ifmt-vg-ac/blob/main/apostila/notebooks/AC_U1_Dados_INICIAL.ipynb) |
+| `AC_U2_Primeiro_Modelo_Honesto` | 5 a 10 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Schavess/ifmt-vg-ac/blob/main/apostila/notebooks/AC_U2_Primeiro_Modelo_Honesto_INICIAL.ipynb) |
+| `AC_U3_Familias_de_Modelos` | 11 a 16 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Schavess/ifmt-vg-ac/blob/main/apostila/notebooks/AC_U3_Familias_de_Modelos_INICIAL.ipynb) |
+| `AC_U4_Sem_Rotulo_e_Decisao` | 17 a 24 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Schavess/ifmt-vg-ac/blob/main/apostila/notebooks/AC_U4_Sem_Rotulo_e_Decisao_INICIAL.ipynb) |
 
 O mapa completo capítulo → seção do notebook está em [`apostila/LEIAME.md`](apostila/LEIAME.md).
 
