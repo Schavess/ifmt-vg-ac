@@ -1,6 +1,6 @@
 # Prática 24/11 · Da previsão à decisão: perfis de municípios e carteira sob orçamento
 
-AC • 4º TIA • 24/11/2026 • Aula 05 • apostila: cap. 6, 7, 19, 20 e 24 • parte do [PPI-molde Comparece MT](../../ppi_molde_comparece_mt)
+AC • 4º TIA • 24/11/2026 • Aula 05 • apostila: cap. 7, 17 a 19 e 24 • parte do [PPI-molde Comparece MT](../../ppi_molde_comparece_mt)
 
 **Pergunta:** como transformar a previsão em decisão: onde investir uma ação de mobilização com orçamento limitado?
 
@@ -27,8 +27,8 @@ Prever todos os municípios sem otimismo (`cross_val_predict`), descrever o terr
 | TODO | Tarefa | Apostila |
 |---|---|---|
 | 1 | Previsões fora da amostra e `previsoes.csv` | cap. 24 |
-| 2 | Padronizar e projetar com PCA | cap. 6 e 7 |
-| 3 | Cotovelo e silhueta para escolher o k | cap. 19 e 20 |
+| 2 | Padronizar e projetar com PCA | cap. 7 e 17 |
+| 3 | Cotovelo e silhueta para escolher o k | cap. 18 e 19 |
 | 4 | Benefício previsto de cada município | cap. 24 |
 | 5 | Mochila × "maior % prevista primeiro" | cap. 24 |
 

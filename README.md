@@ -11,7 +11,7 @@
 Apostila, notebooks que rodam no Colab sem configurar nada, práticas semanais e um projeto completo de exemplo para a PPI.<br>
 Dados públicos de Mato Grosso e da gestão pública sempre que possível.
 
-📘 [**Apostila do Aluno (PDF)**](apostila/Apostila_Aprendizagem_Computacional_Aluno.pdf) · 🧪 [**Práticas semanais**](atividades) · 🗓️ [**Sprints da PPI**](ppi) · 🏛️ [**PPI-molde Comparece MT**](ppi_molde_comparece_mt)
+📘 [**Apostila do Aluno (PDF)**](apostila/Apostila_Aprendizagem_Computacional_Aluno_v2.pdf) · 🧪 [**Práticas semanais**](atividades) · 🗓️ [**Sprints da PPI**](ppi) · 🏛️ [**PPI-molde Comparece MT**](ppi_molde_comparece_mt)
 
 </div>
 
@@ -19,7 +19,7 @@ Dados públicos de Mato Grosso e da gestão pública sempre que possível.
 
 ## 🚀 Comece por aqui
 
-1. **Abra a apostila** em [`apostila/Apostila_Aprendizagem_Computacional_Aluno.pdf`](apostila/Apostila_Aprendizagem_Computacional_Aluno.pdf). Cada capítulo diz qual notebook e qual seção rodar.
+1. **Abra a apostila** em [`apostila/Apostila_Aprendizagem_Computacional_Aluno_v2.pdf`](apostila/Apostila_Aprendizagem_Computacional_Aluno_v2.pdf). Cada capítulo diz qual notebook e qual seção rodar.
 2. **Abra a prática da semana** em [`atividades`](atividades) e clique no botão **Open in Colab** do `LEIAME.md` dela.
 3. **No Colab: Arquivo > Salvar uma cópia no Drive.** Sem isso, o que você fizer se perde ao fechar a aba.
 4. **Complete os `# TODO`** de cima para baixo e rode a última célula, a de verificação, até aparecer tudo ✅.
@@ -30,7 +30,7 @@ Dados públicos de Mato Grosso e da gestão pública sempre que possível.
 
 | Pasta | O que é | Para quê |
 |---|---|---|
-| 📘 [`apostila`](apostila) | A apostila (PDF e Word) e os 3 notebooks dos capítulos, um por unidade | Estudar a matéria com código que roda |
+| 📘 [`apostila`](apostila) | A apostila (PDF e Word) e os 3 notebooks dos capítulos | Estudar a matéria com código que roda |
 | 🧪 [`atividades`](atividades) | Uma pasta por prática semanal de laboratório | Praticar em aula, a partir de um notebook com `TODO` e verificação automática |
 | 🗓️ [`ppi`](ppi) | Plano de sprints da PPI GovTech: MVP mínimo, calendário, checklist de cada terça, papéis, semáforo e planos B | Saber o que entregar em cada terça até a banca |
 | 🏛️ [`ppi_molde_comparece_mt`](ppi_molde_comparece_mt) | Projeto completo de exemplo: previsão de abstenção, perfis de municípios, otimização com orçamento e dashboard | Modelo de repositório e de fluxo para a PPI GovTech |
@@ -40,25 +40,33 @@ Dados públicos de Mato Grosso e da gestão pública sempre que possível.
 
 ## 📘 A apostila
 
-São 3 unidades e 24 capítulos, mais 4 apêndices (guia de modelo e métrica, Weka, glossário e leituras).
+São 4 unidades e 24 capítulos, mais 5 apêndices (guia de modelo e métrica, Weka, glossário, leituras e práticas semanais). Cada capítulo responde a uma pergunta que o anterior deixou aberta.
 
-| Unidade | Capítulos | Assunto | Notebook |
-|---|---|---|---|
-| **1 · Fundamentos e preparação** | 1 a 8 | CRISP-DM, EDA, preparação e vazamento, distâncias, PCA, anomalias | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Schavess/ifmt-vg-ac/blob/main/apostila/notebooks/AC_U1_Dados_ao_Pipeline_INICIAL.ipynb) `AC_U1_Dados_ao_Pipeline` |
-| **2 · Supervisionada** | 9 a 18 | Treino/teste e baseline, teoria, regressão, logística e métricas, k-NN, Naive Bayes, redes neurais, árvores, SVM, ensembles | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Schavess/ifmt-vg-ac/blob/main/apostila/notebooks/AC_U2_Supervisionada_INICIAL.ipynb) `AC_U2_Supervisionada` |
-| **3 · Não supervisionada e aplicações** | 19 a 24 | Agrupamento (K-Means, misturas gaussianas, Fuzzy C-Means, SOM) e da previsão à decisão | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Schavess/ifmt-vg-ac/blob/main/apostila/notebooks/AC_U3_Nao_Supervisionada_INICIAL.ipynb) `AC_U3_Nao_Supervisionada` |
+| Unidade | Capítulos | Assunto |
+|---|---|---|
+| **1 · Tenho dados: o que eles dizem?** | 1 a 4 | Aprender com dados, vocabulário, CRISP-DM, EDA |
+| **2 · Meu primeiro modelo, provado com honestidade** | 5 a 10 | Treino/teste e baseline, preparação e vazamento, distâncias, regressão, logística e métricas, teoria |
+| **3 · Outras famílias de modelos** | 11 a 16 | k-NN, Naive Bayes, árvores, SVM, redes neurais, ensembles e a comparação justa |
+| **4 · Sem y, e até a decisão** | 17 a 24 | PCA, agrupamento (K-Means, misturas gaussianas, Fuzzy C-Means, SOM), anomalias e da previsão à decisão |
+
+| Notebook | Capítulos | Abrir |
+|---|---|---|
+| `AC_U1_Dados_ao_Pipeline` | 1 a 7, 17 e 23 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Schavess/ifmt-vg-ac/blob/main/apostila/notebooks/AC_U1_Dados_ao_Pipeline_INICIAL.ipynb) |
+| `AC_U2_Supervisionada` | 5 e 8 a 16 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Schavess/ifmt-vg-ac/blob/main/apostila/notebooks/AC_U2_Supervisionada_INICIAL.ipynb) |
+| `AC_U3_Nao_Supervisionada` | 18 a 22 e 24 | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Schavess/ifmt-vg-ac/blob/main/apostila/notebooks/AC_U3_Nao_Supervisionada_INICIAL.ipynb) |
 
 O mapa completo capítulo → seção do notebook está em [`apostila/LEIAME.md`](apostila/LEIAME.md).
 
 ```mermaid
 flowchart LR
-    U1["📗 Unidade 1<br/>do dado ao pipeline"] --> U2["📙 Unidade 2<br/>aprender com rótulo"]
-    U2 --> U3["📕 Unidade 3<br/>agrupar e decidir"]
-    U3 --> PPI(["🏛️ PPI GovTech"])
+    U1["📗 Unidade 1<br/>tenho dados"] --> U2["📙 Unidade 2<br/>primeiro modelo honesto"]
+    U2 --> U3["📘 Unidade 3<br/>outras famílias"]
+    U3 --> U4["📕 Unidade 4<br/>sem y e até a decisão"]
+    U4 --> PPI(["🏛️ PPI GovTech"])
     P["🧪 Práticas semanais"] -.-> PPI
 ```
 
-Cada capítulo segue o mesmo roteiro: **De onde viemos → A ideia → Como funciona → No código → Armadilhas → No seu projeto → Verifique**.
+Cada capítulo segue o mesmo roteiro: **De onde viemos → A ideia → Como funciona → No código → Armadilhas → No seu projeto → A pergunta que fica → Verifique**.
 A seção "No seu projeto" liga o capítulo à PPI.
 
 ---
@@ -70,11 +78,11 @@ Toda semana pode entrar uma prática nova em [`atividades`](atividades), **e pr�
 | Data | Prática | Apostila |
 |---|---|---|
 | 27/10 | [O problema: onde o eleitor de MT deixa de votar?](atividades/2026-10-27_Aula01_O_Problema) | cap. 1 a 4 |
-| 03/11 | [Da fonte à base analítica: o ETL](atividades/2026-11-03_Aula02_ETL_Base_Analitica) | cap. 3 a 6 |
-| 10/11 | [Experimento honesto: o modelo vence as duas réguas?](atividades/2026-11-10_Aula03_Experimento_Honesto) | cap. 5, 9 e 11 |
-| 17/11 | [Qual modelo escolher? Validação cruzada, árvores e sobreajuste](atividades/2026-11-17_Aula04_Validacao_Cruzada_Arvores) | cap. 9, 10, 13, 16 e 18 |
-| 24/11 | [Da previsão à decisão: perfis e carteira sob orçamento](atividades/2026-11-24_Aula05_Perfis_e_Decisao) | cap. 6, 7, 19, 20 e 24 |
-| 01/12 | [Tribunal do Pipeline: auditar e consertar](atividades/2026-12-01_Aula06_Tribunal_do_Pipeline) | cap. 2, 5, 9, 12, 13 e 24 |
+| 03/11 | [Da fonte à base analítica: o ETL](atividades/2026-11-03_Aula02_ETL_Base_Analitica) | cap. 3, 4, 6 e 7 |
+| 10/11 | [Experimento honesto: o modelo vence as duas réguas?](atividades/2026-11-10_Aula03_Experimento_Honesto) | cap. 5, 6 e 8 |
+| 17/11 | [Qual modelo escolher? Validação cruzada, árvores e sobreajuste](atividades/2026-11-17_Aula04_Validacao_Cruzada_Arvores) | cap. 5, 10, 11, 13 e 16 |
+| 24/11 | [Da previsão à decisão: perfis e carteira sob orçamento](atividades/2026-11-24_Aula05_Perfis_e_Decisao) | cap. 7, 17 a 19 e 24 |
+| 01/12 | [Tribunal do Pipeline: auditar e consertar](atividades/2026-12-01_Aula06_Tribunal_do_Pipeline) | cap. 2, 5, 6, 9, 11 e 24 |
 | … | *práticas extras podem entrar a qualquer semana, no mesmo formato* | |
 
 ```

@@ -1,6 +1,6 @@
 # Prática 01/12 · Tribunal do Pipeline: auditar e consertar um experimento
 
-AC • 4º TIA • 01/12/2026 • Aula 06 • apostila: cap. 2, 5, 9, 12, 13 e 24 • parte do [PPI-molde Comparece MT](../../ppi_molde_comparece_mt)
+AC • 4º TIA • 01/12/2026 • Aula 06 • apostila: cap. 2, 5, 6, 9, 11 e 24 • parte do [PPI-molde Comparece MT](../../ppi_molde_comparece_mt)
 
 **Pergunta:** o experimento do Grupo Réu tem R² de 1. Quais crimes de método explicam esse número, e qual é o resultado honesto?
 
@@ -26,11 +26,11 @@ Auditar um experimento com erros comuns (vazamento, escala antes do split, escol
 
 | TODO | Tarefa | Apostila |
 |---|---|---|
-| 1 | Marcar os crimes do réu no catálogo | cap. 2, 5, 9 |
-| 2 | Tirar de X o que causa vazamento | cap. 5 |
-| 3 | Split reprodutível, antes de tudo | cap. 9 |
-| 4 | Comparar candidatos e réguas com validação cruzada | cap. 9, 12, 13 |
-| 5 | Escolher pela CV e abrir o teste uma vez | cap. 9, 24 |
+| 1 | Marcar os crimes do réu no catálogo | cap. 2, 5 e 6 |
+| 2 | Tirar de X o que causa vazamento | cap. 6 |
+| 3 | Split reprodutível, antes de tudo | cap. 5 |
+| 4 | Comparar candidatos e réguas com validação cruzada | cap. 5, 9 e 11 |
+| 5 | Escolher pela CV e abrir o teste uma vez | cap. 5 e 24 |
 
 ## Dados
 

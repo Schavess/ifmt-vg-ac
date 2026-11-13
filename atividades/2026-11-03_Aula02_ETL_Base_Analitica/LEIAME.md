@@ -1,6 +1,6 @@
 # Prática 03/11 · Da fonte à base analítica: o ETL do PPI-molde
 
-AC • 4º TIA • 03/11/2026 • Aula 02 • apostila: cap. 3 a 6 • parte do [PPI-molde Comparece MT](../../ppi_molde_comparece_mt)
+AC • 4º TIA • 03/11/2026 • Aula 02 • apostila: cap. 3, 4, 6 e 7 • parte do [PPI-molde Comparece MT](../../ppi_molde_comparece_mt)
 
 **Pergunta:** como sair dos arquivos brutos do TSE para uma base analítica com uma linha por município, de forma que qualquer pessoa chegue aos mesmos números?
 
@@ -25,9 +25,9 @@ Construir em código o ETL do PPI-molde: ler o perfil do eleitorado e os resulta
 | 1 | Percentuais do perfil por município | cap. 3 e 4 |
 | 2 | Filtrar presidente, 1º turno, MT | cap. 3 |
 | 3 | Somar as zonas e calcular a abstenção | cap. 3 |
-| 4 | Juntar as fontes pela chave, 1 para 1 | cap. 5 |
-| 5 | Distância até Cuiabá (haversine) | cap. 6 |
-| 6 | Retirar o município sem histórico, validar e salvar | cap. 5 |
+| 4 | Juntar as fontes pela chave, 1 para 1 | cap. 6 |
+| 5 | Distância até Cuiabá (haversine) | cap. 7 |
+| 6 | Retirar o município sem histórico, validar e salvar | cap. 6 |
 
 ## Dados
 

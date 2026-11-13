@@ -1,6 +1,6 @@
 # Prática 10/11 · Experimento honesto: o modelo vence as duas réguas?
 
-AC • 4º TIA • 10/11/2026 • Aula 03 • apostila: cap. 5, 9 e 11 • parte do [PPI-molde Comparece MT](../../ppi_molde_comparece_mt)
+AC • 4º TIA • 10/11/2026 • Aula 03 • apostila: cap. 5, 6 e 8 • parte do [PPI-molde Comparece MT](../../ppi_molde_comparece_mt)
 
 **Pergunta:** a regressão linear erra menos que as duas réguas, prever a média e repetir 2022? E as 3 variáveis novas da base fazem diferença?
 
@@ -26,11 +26,11 @@ Fazer o primeiro experimento honesto do PPI-molde: teste separado antes de tudo 
 
 | TODO | Tarefa | Apostila |
 |---|---|---|
-| 1 | Separar o teste (20%) antes de tudo | cap. 9 |
-| 2 | Separar ajuste e validação dentro do treino | cap. 9 |
-| 3 | Baseline da média (`DummyRegressor`) | cap. 9 e 11 |
-| 4 | Completar o `fit` do baseline de persistência | cap. 9 |
-| 5 | Regressão linear dentro de `Pipeline` | cap. 5 e 11 |
+| 1 | Separar o teste (20%) antes de tudo | cap. 5 |
+| 2 | Separar ajuste e validação dentro do treino | cap. 5 |
+| 3 | Baseline da média (`DummyRegressor`) | cap. 5 e 8 |
+| 4 | Completar o `fit` do baseline de persistência | cap. 5 |
+| 5 | Regressão linear dentro de `Pipeline` | cap. 6 e 8 |
 
 ## Dados
 

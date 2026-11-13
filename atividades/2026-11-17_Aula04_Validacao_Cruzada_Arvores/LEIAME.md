@@ -1,6 +1,6 @@
 # Prática 17/11 · Qual modelo escolher? Validação cruzada, árvores e sobreajuste
 
-AC • 4º TIA • 17/11/2026 • Aula 04 • apostila: cap. 9, 10, 13, 16 e 18 • parte do [PPI-molde Comparece MT](../../ppi_molde_comparece_mt)
+AC • 4º TIA • 17/11/2026 • Aula 04 • apostila: cap. 5, 10, 11, 13 e 16 • parte do [PPI-molde Comparece MT](../../ppi_molde_comparece_mt)
 
 **Pergunta:** entre as duas réguas, a linear, a Ridge, a árvore, o k-NN e a Random Forest, qual escolher para prever a abstenção, **sem gastar o teste**?
 
@@ -26,11 +26,11 @@ Comparar modelos de forma justa com **validação cruzada** (mesmas dobras, mesm
 
 | TODO | Tarefa | Apostila |
 |---|---|---|
-| 1 | `KFold` com 5 dobras | cap. 9 |
-| 2 | Curva de complexidade da árvore | cap. 10 e 16 |
-| 3 | Montar k-NN (com escala) e Random Forest | cap. 13 e 18 |
-| 4 | `GridSearchCV` para o k do k-NN | cap. 13 |
-| 5 | Ajustar o escolhido no treino e prever o teste uma vez | cap. 9 |
+| 1 | `KFold` com 5 dobras | cap. 5 |
+| 2 | Curva de complexidade da árvore | cap. 10 e 13 |
+| 3 | Montar k-NN (com escala) e Random Forest | cap. 11 e 16 |
+| 4 | `GridSearchCV` para o k do k-NN | cap. 11 |
+| 5 | Ajustar o escolhido no treino e prever o teste uma vez | cap. 5 |
 
 ## Dados
 
